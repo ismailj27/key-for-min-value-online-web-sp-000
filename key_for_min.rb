@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   min_value = 0
-  min_key = 0
+  min_key;
   name_hash.collect do |d_key, d_value|
     if d_value < min_value
       min_key = d_key
