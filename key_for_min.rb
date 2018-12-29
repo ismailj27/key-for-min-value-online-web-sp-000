@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   min = name_hash[0]
-  winner_key = ""
   name_hash.collect do |d_key, d_value|
     if d_value < min 
       min = d_value
