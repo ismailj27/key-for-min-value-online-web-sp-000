@@ -7,6 +7,8 @@ def key_for_min_value(name_hash)
   name_hash.each do |d_key, d_value|
     if min_value > d_value
       min_key = d_key
+    else
+      min_value = d_value
     end
   end
   min_key
